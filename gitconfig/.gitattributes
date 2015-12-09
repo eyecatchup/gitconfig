@@ -1,0 +1,6 @@
+*.sh   whitespace=indent,trail,space 
+*.md   whitespace=indent,trail,space 
+*.js   whitespace=indent,trail,space 
+*.py   whitespace=indent,trail,space 
+*.php  whitespace=indent,trail,space 
+*.html whitespace=indent,trail,space 

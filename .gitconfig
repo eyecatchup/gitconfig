@@ -1,0 +1,30 @@
+[user]
+	email = eyecatchup@gmail.com
+	name = Stephan Schmitz
+[core]
+	attributesFile = ~/gitconfig/.gitattributes
+	excludesfile = ~/gitconfig/.gitignore_global
+	autocrlf = Input
+	editor = \"C:/GitExtensions/GitExtensions.exe\" fileeditor
+[commit]
+    template = ~/gitconfig/.git-commit-template.txt
+[filter "tabtospace"]
+    #clean = expand --initial -t 4
+    #smudge = expand --initial -t 4
+    #required
+[merge]
+    renormalize = true
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Progra~1/KDiff3/kdiff3.exe
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Progra~1/KDiff3/kdiff3.exe
+[i18n]
+	filesEncoding = utf-8
+[credential]
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
