@@ -1,0 +1,33 @@
+# ------------------------------------------------------------------------------
+# Commit Message Template for TYPO3 CMS
+#   See: <https://wiki.typo3.org/CommitMessage_Format_(Git)>
+# ------------------------------------------------------------------------------
+# SUBJECT should use impertivite tone* and describe, in essence, what you did.
+# Keep the whole line below 52 characters if possible, but below 80 in any case.
+#
+#   * Impertivite tone means that, for example, you should use 'Change', and not
+#     'Changed' or 'Changes'. Or use 'Add', and not 'Added' or 'Adds'.
+# ------------------------------------------------------------------------------
+# [TYP] should be one of the following:
+#
+#   * FEATURE   - A new feature (also small additions).
+#   * TASK      - Any (small) change that is not covered by the other tags.
+#   * BUGFIX    - A fix for a bug.
+#   * CLEANUP   - May be used for changes that do NOT alter functionality, but 
+#                 try to improve code style and readability. 
+[TYP] SUBJECT
+
+# ------------------------------------------------------------------------------
+# To provide details about changes made, use the message BODY. 
+# Wrap the lines after 72 characters manually.
+
+#BODY
+
+# ------------------------------------------------------------------------------
+# Refer to an issue, a task or branch/release for which this change will apply.
+# A "Related" reference should be given in all cases. Others as applicable.
+# Important: The space after the colon (:) is mandatory. 
+
+Related: #12340
+#Resolves: #12346
+#Releases: master, 6.2
