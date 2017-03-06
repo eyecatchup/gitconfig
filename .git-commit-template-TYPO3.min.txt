@@ -1,0 +1,20 @@
+# ------------------------------------------------------------------------------
+# Git Commitmessage Template <https://wiki.typo3.org/CommitMessage_Format_(Git)>
+# ------------------------------------------------------------------------------
+[TYP] SUBJECT
+# ------------------------------------------------------------------------------
+# [TYP] should be one of: FEATURE, TASK, BUGFIX, CLEANUP
+# ------------------------------------------------------------------------------
+# SUBJECT should use impertivite tone* and describe, in essence, what you did.
+# Keep the whole line below 52 characters if possible, but below 80 in any case.
+
+#BODY
+# ------------------------------------------------------------------------------
+# Use the message BODY to provide details about changes made. 
+
+Related: #12340
+#Resolves: #12346
+#Releases: master, 6.2
+# ------------------------------------------------------------------------------
+# Refer to an issue, a task or branch/release for which this change will apply.
+# A "Related" reference should be given in all cases. Others as applicable.
